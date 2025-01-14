@@ -1,6 +1,6 @@
 # 关于U2-Net: Going Deeper with Nested U-Structure for Salient Object Detection的复现
 
-## 该项目主要是来自官方的源码
+## 本次复现主要是来自官方的源码
 - https://github.com/xuebinqin/U-2-Net
 - 注意，该项目是针对显著性目标检测领域（Salient Object Detection / SOD）
 
