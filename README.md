@@ -1,19 +1,28 @@
 # 关于U2-Net: Going Deeper with Nested U-Structure for Salient Object Detection的复现
 
+
+
 ## U2NET网络结构
 
 ![u2net](https://github.com/user-attachments/assets/28820512-46cb-42a9-bc51-46da4c670aed)
+
+
 
 
 ## 本次复现主要是来自官方的源码
 - https://github.com/xuebinqin/U-2-Net
 - 注意，该项目是针对显著性目标检测领域（Salient Object Detection / SOD）
 
+
+
+
 ## 环境配置：
 - Python3.8
 - Pytorch1.10
 - 使用GPU训练（一张3090）
 - 详细环境配置见`requirements.txt`
+
+
 
 
 ## 文件结构
@@ -28,6 +37,8 @@
 └── requirements.txt: 项目依赖
 ```
 
+
+
 ## DUTS数据集准备
 - DUTS数据集官方下载地址：[http://saliencydetection.net/duts/](http://saliencydetection.net/duts/)
 
@@ -41,6 +52,8 @@
        └── DUTS-TE-Mask: 该文件夹存放对应测试（验证）图片的GT标签（Mask蒙板形式）
 ```
 
+
+
 ## 官方权重
 使用官方权重：
 `u2net_full`在DUTS-TE上的验证结果(使用`validation.py`进行验证)：
@@ -49,6 +62,8 @@
 MAE: 0.044
 maxF1: 0.868
 ```
+
+
 
 ## 训练记录
 
