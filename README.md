@@ -2,9 +2,8 @@
 
 ## U2NET网络结构
 
-```
 ![u2net](https://github.com/user-attachments/assets/28820512-46cb-42a9-bc51-46da4c670aed)
-```
+
 
 ## 本次复现主要是来自官方的源码
 - https://github.com/xuebinqin/U-2-Net
