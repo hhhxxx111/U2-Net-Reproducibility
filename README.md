@@ -1,5 +1,3 @@
-# U2-Net-Reproducibility
-
 # 关于U2-Net: Going Deeper with Nested U-Structure for Salient Object Detection的复现
 
 ## 该项目主要是来自官方的源码
