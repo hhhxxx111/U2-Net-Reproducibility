@@ -1,5 +1,11 @@
 # 关于U2-Net: Going Deeper with Nested U-Structure for Salient Object Detection的复现
 
+## U2NET网络结构
+
+```
+![u2net](https://github.com/user-attachments/assets/28820512-46cb-42a9-bc51-46da4c670aed)
+```
+
 ## 本次复现主要是来自官方的源码
 - https://github.com/xuebinqin/U-2-Net
 - 注意，该项目是针对显著性目标检测领域（Salient Object Detection / SOD）
@@ -61,11 +67,5 @@ maxF1: 0.857
 未达到原论文训练效果，本次复现由于硬件有限，只训练了360轮，远小于原论文中训练的轮数，这可能是一个原因
 ```
 训练过程详情可见results.txt文件
-
-
-
-
-## U2NET网络结构
-![u2net](https://github.com/user-attachments/assets/28820512-46cb-42a9-bc51-46da4c670aed)
 
 
