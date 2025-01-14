@@ -50,9 +50,11 @@ maxF1: 0.868
 ```
 训练最终在DUTS-TE上的验证结果：
 ```
-![开始](https://github.com/user-attachments/assets/6ef84c0c-c06b-4138-8aef-11f8d19a6e3c)
+训练结束
 ![训练结果](https://github.com/user-attachments/assets/fca0d39b-1010-4e45-bb5c-1cfb465f19e4)
 
+
+训练结果
 MAE: 0.047
 maxF1: 0.857
 
@@ -64,5 +66,6 @@ maxF1: 0.857
 
 
 ## U2NET网络结构
+![u2net](https://github.com/user-attachments/assets/28820512-46cb-42a9-bc51-46da4c670aed)
 
-![u2net](./u2net.png)
+
